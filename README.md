@@ -57,3 +57,11 @@ Original download sources provided by <b>NetwOrchestration</b> @ superuser.com
 https://superuser.com/questions/1002950/quick-method-to-install-devcon-exe
 </small>
 </small>
+ ---
+<small>
+<small>
+Forked from Drawbackz/DevCon-Installer
+<br>
+https://github.com/Drawbackz/DevCon-Installer
+</small>
+</small>
