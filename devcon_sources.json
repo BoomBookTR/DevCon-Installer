@@ -1,5 +1,22 @@
 [
     {
+    "Name": "Windows 11 Insider Preview version  22000.1.210604-1628",
+    "Sources": [
+      {
+        "Sha256": "FBD394E4407C6C334B933FF3A0D21A8E28F0EEDE0CFE5FB277287C3F994B5B00",
+        "Url": "https://download.microsoft.com/download/7/d/6/7d602355-8ae9-414c-ae36-109ece2aade6/wdk/Installers/82c1721cd310c73968861674ffc209c9.cab",
+        "ExtractionName": "fil5a9177f816435063f779ebbbd2c1a1d2",
+        "Architecture": "X86"
+      },
+      {
+        "Sha256": "CC3A7D551B7442565D4EC2A3BCD44DCBA1176362A634AAC76945EE0549597CC0",
+        "Url": "https://download.microsoft.com/download/7/d/6/7d602355-8ae9-414c-ae36-109ece2aade6/wdk/Installers/787bee96dbd26371076b37b13c405890.cab",
+        "ExtractionName": "filbad6e2cce5ebc45a401e19c613d0a28f",
+        "Architecture": "X64"
+      }
+    ]
+  },
+    {
     "Name": "Windows 10 version 2004",
     "Sources": [
       {
