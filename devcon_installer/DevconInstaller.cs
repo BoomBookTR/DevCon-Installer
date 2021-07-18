@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Linq;
 using System.Net;
@@ -124,7 +124,7 @@ namespace devcon_installer
                     }
                     OnProgressChanged?.Invoke(0, string.Empty);
                 };
-                wc.DownloadFileAsync(new Uri("https://raw.githubusercontent.com/Drawbackz/DevCon-Installer/master/devcon_sources.json"), $"{Environment.CurrentDirectory}\\devcon_sources.json");
+                wc.DownloadFileAsync(new Uri("https://raw.githubusercontent.com/BoomBookTR/DevCon-Installer/master/devcon_sources.json"), $"{Environment.CurrentDirectory}\\devcon_sources.json");
             }
         }
 
