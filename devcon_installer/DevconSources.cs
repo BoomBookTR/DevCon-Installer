@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Net;
 using devcon_installer.Downloads;
@@ -14,6 +14,98 @@ namespace devcon_installer
 
         public static readonly DevconDownload[] DefaultSources =
         {
+            new DevconDownload
+            {
+                Name = "Windows 11 Insider Preview version 22000.1.210604-1628",
+                Sources = new[]
+                {
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/7/d/6/7d602355-8ae9-414c-ae36-109ece2aade6/wdk/Installers/82c1721cd310c73968861674ffc209c9.cab",
+                        Architecture = SystemArchitecture.X86,
+                        ExtractionName = "fil5a9177f816435063f779ebbbd2c1a1d2",
+                        Sha256 = "FBD394E4407C6C334B933FF3A0D21A8E28F0EEDE0CFE5FB277287C3F994B5B00"
+                    },
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/7/d/6/7d602355-8ae9-414c-ae36-109ece2aade6/wdk/Installers/787bee96dbd26371076b37b13c405890.cab",
+                        Architecture = SystemArchitecture.X64,
+                        ExtractionName = "filbad6e2cce5ebc45a401e19c613d0a28f",
+                        Sha256 = "CC3A7D551B7442565D4EC2A3BCD44DCBA1176362A634AAC76945EE0549597CC0"
+                    }
+                }
+            },
+            new DevconDownload
+            {
+                Name = "Windows 10 version 2004",
+                Sources = new[]
+                {
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/1/a/7/1a730121-7aa7-46f7-8978-7db729aa413d/wdk/Installers/82c1721cd310c73968861674ffc209c9.cab",
+                        Architecture = SystemArchitecture.X86,
+                        ExtractionName = "fil5a9177f816435063f779ebbbd2c1a1d2",
+                        Sha256 = "D208B1CCA01B47016B0DFDF37B74C7B2242061B04866F599A9D54113541562F4"
+                    },
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/1/a/7/1a730121-7aa7-46f7-8978-7db729aa413d/wdk/Installers/787bee96dbd26371076b37b13c405890.cab",
+                        Architecture = SystemArchitecture.X64,
+                        ExtractionName = "filbad6e2cce5ebc45a401e19c613d0a28f",
+                        Sha256 = "DE73C76E87C4BDBA222701180BEA6F7E26379CE3C4830B70A0CA4143789FA555"
+                    }
+                }
+            },
+            new DevconDownload
+            {
+                Name = "Windows 10 version 1903",
+                Sources = new[]
+                {
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/2/9/3/29376990-B744-43C5-AE5C-99405068D58B/wdk/Installers/82c1721cd310c73968861674ffc209c9.cab",
+                        Architecture = SystemArchitecture.X86,
+                        ExtractionName = "fil5a9177f816435063f779ebbbd2c1a1d2",
+                        Sha256 = "8DF4A1EB40894C98C6453EB5833DCF0196C638AFC91E7F8E9F879E28BE96D50D"
+                    },
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/2/9/3/29376990-B744-43C5-AE5C-99405068D58B/wdk/Installers/787bee96dbd26371076b37b13c405890.cab",
+                        Architecture = SystemArchitecture.X64,
+                        ExtractionName = "filbad6e2cce5ebc45a401e19c613d0a28f",
+                        Sha256 = "411685D0D8168545CCB84D38CF25EBDC2FE38629B051E069682871C9FB9E3E4D"
+                    }
+                }
+            },
+            new DevconDownload
+            {
+                Name = "Windows 10 version 1809",
+                Sources = new[]
+                {
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/1/4/0/140EBDB7-F631-4191-9DC0-31C8ECB8A11F/wdk/Installers/82c1721cd310c73968861674ffc209c9.cab",
+                        Architecture = SystemArchitecture.X86,
+                        ExtractionName = "fil5a9177f816435063f779ebbbd2c1a1d2",
+                        Sha256 = "2469C602B861F8A87D4625459F3174CD50A86BFDD00FF38288341DFF8FCE1195"
+                    },
+                    new DevconSource
+                    {
+                        Url =
+                            "https://download.microsoft.com/download/1/4/0/140EBDB7-F631-4191-9DC0-31C8ECB8A11F/wdk/Installers/787bee96dbd26371076b37b13c405890.cab",
+                        Architecture = SystemArchitecture.X64,
+                        ExtractionName = "filbad6e2cce5ebc45a401e19c613d0a28f",
+                        Sha256 = "54004C83EE34F6A55380528A8B29F4C400E61FBB947A19E0AB9E5A193D7D961E"
+                    }
+                }
+            },
             new DevconDownload
             {
                 Name = "Windows 10 version 1803 (April 2018 Update)",
