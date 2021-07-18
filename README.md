@@ -16,6 +16,9 @@ The Application can also add DevCon to the system PATH environment variable if s
 
 <h4>Supported Versions:</h4>
 <b>
+Windows 11 Insider Preview version 22000.1.210604-1628
+<br>
+<b>
 Windows 10 version 2004
 <br>
 Windows 10 version 1903
